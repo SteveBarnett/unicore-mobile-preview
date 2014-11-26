@@ -1,0 +1,87 @@
+/*  SETTINGS  */
+
+	*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*  GLOBAL  */
+
+	html, body { margin: 0; padding: 0; color: #666; background: #fff; font-size: 12px; font-family: Arial, Helvetica, sans-serif; line-height: 1.3em; -webkit-text-size-adjust: none; }
+	input, select, textarea { font-size: 95%; font-family: Arial, Helvetica, sans-serif; }
+	a { color: #009aef; text-decoration: none; }
+	.clear { width: 100%; height: 0px; clear: both; display: block; }
+	.align-right { float: right; }
+	.text-center { text-align: center; }
+
+
+/*  LOCALE  */
+
+	.locale { padding: 5px; text-align: right; border-bottom: 1px solid #e6e6e6; color: #e6e6e6; }
+		.locale a { font-size: 11px; color: #f7a11a; }
+
+
+/*  HEADER  */
+
+	#header { padding: 10px; text-align: center; border: 0; }
+		#header img { width: 120px; display: block; margin: 0 auto }
+
+
+/*  NAV  */
+
+	#nav { padding: 13px 10px; background: #f7a11a; font-size: 13px; font-weight: bold; color: #ffc20f; text-align: left; }
+		#nav a { color: #fff; }
+
+
+/*  BANNER  */
+
+	#banner { padding: 10px; font-size: 20px; color: #666666; }
+		#banner a { color: #666666; }
+		#banner img { width: 100%; display: block; }
+
+
+/*  CONTENT  */
+
+	#content {}
+		#content .h1 { padding: 6px 10px; background: #f7a11a; border: 0; font-size: 20px; font-weight: normal; color: #fff; vertical-align: middle; line-height: 22px }
+		#content .h1 a { display: block; color: #fff; }
+		#content .h2 { padding: 12px 10px; border-bottom: 1px solid #e6e6e6; font-size: 20px; font-weight: normal; vertical-align: middle; line-height: 22px }
+		#content .item { padding: 10px; margin: 0; border: 0; border-bottom: 1px solid #e6e6e6; }
+		#content .item a { font-size: 15px; color: #f7a11a; line-height: 22px; }
+		#content .item span a { font-size: 12px; text-transform: uppercase; line-height: 14px; }
+		#content .item .date { font-size: 11px; font-style: italic; color: #ccc!important; }
+		#content .pagi { padding: 10px; font-weight: bold; }
+		#content .pagi a { color: #f7a11a; }
+		#content .pagi .right { float: right; }
+
+		#content .detail { padding: 10px; border-top: 1px solid #e6e6e6; border-bottom: 1px solid #e6e6e6; }
+		#content .detail .category { font-size: 12px; text-transform: uppercase; line-height: 14px; }
+		#content .detail .h3 { padding: 5px 0; font-size: 20px; font-weight: normal; vertical-align: middle; line-height: 22px }
+		#content .detail .date { padding: 0 0 10px 0; font-size: 11px; font-style: italic; color: #ccc!important; }
+
+		#content .category-recommended .h1 { background: #ff6600; }
+		#content .category-recommended .item a { color: #666; }
+		#content .category-recommended .item div { color: #9f9f9f; }
+
+		#content .category-pregnancy .h1 { background: #00b0ca; }
+		#content .category-pregnancy .item a,
+		#content .category-pregnancy .pagi a,
+		#content span.category-pregnancy a { color: #00b0ca!important; }
+
+		#content .category-baby .h1 { background: #69be28; }
+		#content .category-baby .item a,
+		#content .category-baby .pagi a,
+		#content span.category-baby a { color: #69be28!important; }
+
+		#content .category-mama-to-mama .h1 { background: #d81f29; }
+		#content .category-mama-to-mama .item a,
+		#content .category-mama-to-mama .pagi a,
+		#content span.category-mama-to-mama a { color: #d81f29!important; }
+
+
+/*  MENU  */
+
+	#menu { padding: 10px; background: #f7a11a; color: #ffc20f; text-align: left; }
+		#menu a, #menu span { color: #fff; }
+
+
+/*  FOOTER  */
+
+	#footer { padding: 10px; color: #000; }
